@@ -1,63 +1,107 @@
-.hljs-comment,
-.hljs-quote {
-    color: #b6b18b;
-}
+/*!
+  Theme: GitHub Dark Dimmed
+  Description: Dark dimmed theme as seen on github.com
+  Author: github.com
+  Maintainer: @Hirse
+  Updated: 2021-05-15
 
-.hljs-deletion,
-.hljs-name,
-.hljs-regexp,
-.hljs-selector-class,
-.hljs-selector-id,
-.hljs-tag,
-.hljs-template-variable,
-.hljs-variable {
-    color: #eb3c54;
-}
-
-.hljs-built_in,
-.hljs-builtin-name,
-.hljs-link,
-.hljs-literal,
-.hljs-meta,
-.hljs-number,
-.hljs-params,
-.hljs-type {
-    color: #e7ce56;
-}
-
-.hljs-attribute {
-    color: #ee7c2b;
-}
-
-.hljs-addition,
-.hljs-bullet,
-.hljs-string,
-.hljs-symbol {
-    color: #4fb4d7;
-}
-
-.hljs-section,
-.hljs-title {
-    color: #78bb65;
-}
-
-.hljs-keyword,
-.hljs-selector-tag {
-    color: #b45ea4;
+  Colors taken from GitHub's CSS
+*/
+.post-content .highlight pre code,
+.post-content .highlight pre,
+.hljs {
+    color: #adbac7;
+    background: #2e2e33 !important;
+    border-radius: 10px;
 }
 
 .hljs {
-    display: block;
-    overflow-x: auto;
-    background: #1c1d21;
-    color: #c0c5ce;
-    padding: .5em;
+    padding: 15px 24px !important;
+}
+
+.hljs-doctag,
+.hljs-keyword,
+.hljs-meta .hljs-keyword,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-variable.language_ {
+    color: #f47067
+}
+
+.hljs-title,
+.hljs-title.class_,
+.hljs-title.class_.inherited__,
+.hljs-title.function_ {
+    color: #dcbdfb
+}
+
+.hljs-attr,
+.hljs-attribute,
+.hljs-literal,
+.hljs-meta,
+.hljs-number,
+.hljs-operator,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-selector-id,
+.hljs-variable {
+    color: #6cb6ff
+}
+
+.hljs-meta .hljs-string,
+.hljs-regexp,
+.hljs-string {
+    color: #96d0ff
+}
+
+.hljs-built_in,
+.hljs-symbol {
+    color: #f69d50
+}
+
+.hljs-code,
+.hljs-comment,
+.hljs-formula {
+    color: #768390
+}
+
+.hljs-name,
+.hljs-quote,
+.hljs-selector-pseudo,
+.hljs-selector-tag {
+    color: #8ddb8c
+}
+
+.hljs-subst {
+    color: #adbac7
+}
+
+.hljs-section {
+    color: #316dca;
+    font-weight: 700
+}
+
+.hljs-bullet {
+    color: #eac55f
 }
 
 .hljs-emphasis {
-    font-style: italic;
+    color: #adbac7;
+    font-style: italic
 }
 
 .hljs-strong {
-    font-weight: 700;
+    color: #adbac7;
+    font-weight: 700
+}
+
+.hljs-addition {
+    color: #b4f1b4;
+    background-color: #1b4721
+}
+
+.hljs-deletion {
+    color: #ffd8d3;
+    background-color: #78191b
 }
